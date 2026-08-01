@@ -1,7 +1,31 @@
 aid: poth-labs
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/poth-labs.png
 name: Poth Labs
-description: Poth Labs is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Poth Labs is a Y Combinator (Summer 2026) startup building an AI-native
+  customer research platform that positions itself as "the customer brain for
+  your company." It aggregates scattered customer feedback from sources such as
+  Fireflies, Slack, support tickets, CRM notes, surveys, in-app chat, docs, and
+  product analytics into a unified, searchable system, then extracts patterns,
+  runs thematic and root-cause analysis, generates hypotheses about user issues
+  like churn or checkout abandonment, and validates them through adaptive user
+  interviews and targeted follow-up surveys. Founded by Matthew Wong (CEO,
+  ex-Palantir, Stanford) and Mojmir Horvath (CTO, ex-Tietoevry) and based
+  between San Francisco and New York, the company targets product, growth,
+  customer research, and analytics teams. It was added to the API Evangelist
+  network as a portfolio lead; as of this enrichment pass Poth Labs publishes a
+  marketing site but no public developer, API, or documentation surface.
 url: https://raw.githubusercontent.com/api-evangelist/poth-labs/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,10 +35,30 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Artificial Intelligence
+- SaaS
+- Customer Research
+- Market Research
+- Customer Feedback
+- Analytics
+- B2B
+- Workflow Automation
 apis: []
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
+common:
+- type: DomainSecurity
+  url: security/poth-labs-domain-security.yml
+- type: Website
+  url: https://pothlabs.com
+- type: Support
+  url: https://pothlabs.com/contact
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
